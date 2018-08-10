@@ -4,6 +4,7 @@ class Channel extends React.Component{
 	}
 	render(){
 		return(
+				<li onClick={this.onClick.bind(this)}>{this.props.name}</li>
 			)
 	}
 }
